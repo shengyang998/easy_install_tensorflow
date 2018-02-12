@@ -6,6 +6,6 @@ Install tensorflow with one command using makefile.
 ## Usage
 install `GNU Make` and then:
 ```shell
-    git clone https://github.com/shengyang998/easy_install_tensorflow.git && \
-    cd easy_install_tensorflow && make all; 
+git clone https://github.com/shengyang998/easy_install_tensorflow.git && \
+cd easy_install_tensorflow && make all; 
 ```
