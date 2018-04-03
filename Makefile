@@ -7,7 +7,7 @@ all:
 	pip install /tmp/tensorflow_pkg/*;
 
 prepare:
-	brew install bazel;
+	brew install bazel || (brew upgrade bazel && brew cleanup bazel);
 	pip install -U six numpy wheel;
 
 download:
